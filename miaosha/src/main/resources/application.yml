@@ -1,0 +1,13 @@
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+spring:
+  datasource:
+    name: miaosha
+    url: jdbc:mysql://127.0.0.1:3306/miaosha?serverTimezone=UTC
+    username: root
+    password: 1234
+    type: com.alibaba.druid.pool.DruidDataSource   #数据源
+    driverClassName: com.mysql.jdbc.Driver
+
+
+
